@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
+    <script src="chart.js"></script>
+</head>
+
+<body style="background-color:white;">
+
+    <canvas id="myChart" width="%100" height="%100"></canvas>
+
+    <script>
+        // https://www.chartjs.org/docs/latest/charts/line.html
+        var ctx = document.getElementById('myChart');
+
+        //const labels = ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10"];
+        const labels = [/*{{ chart.labels }}*/];
+
+        const data = {
+            type: 'line',
+
+            labels: labels,
+
+            options: {
+                indexAxis: 'y',
+                scales: {
+                    x: {
+                        beginAtZero: true,
+                        grid: {
+                            tickColor: 'red'
+                        },
+                        ticks: {
+                            color: 'blue',
+                        }
+                    }
+                }
+            },
+
+            datasets: [
+
+                /*
+                  {
+                      label: 'My First Dataset',
+                      data: [65, 59, 80, 81, 56, 55, 40, 50, 60, 70, 80, 90, 100],
+                      fill: false,
+                      borderColor: 'rgb(75, 192, 192)',
+                      tension: 0.1,
+                  },
+  
+                  {
+                      label: 'My First Dataset 2',
+                      data: [20, 50, 70, 41, 36, 75, 10],
+                      fill: false,
+                      borderColor: 'rgb(75, 192, 292)',
+                      tension: 0.1,
+                  },
+                  */
+
+                /*{{ chart.dataset.Date }}*/
+                /*{{ chart.dataset.LineState }}*/
+                /*{{ chart.dataset.LastDropReason }}*/
+                /*{{ chart.dataset.US_bitrate_Kbps }}*/
+                /*{{ chart.dataset.DS_bitrate_Kbps }}*/
+                /*{{ chart.dataset.US_FEC_fast }}*/
+                /*{{ chart.dataset.DS_FEC_fast }}*/
+                /*{{ chart.dataset.US_CRC_fast }}*/
+                /*{{ chart.dataset.DS_CRC_fast }}*/
+                /*{{ chart.dataset.US_HEC_fast }}*/
+                /*{{ chart.dataset.DS_HEC_fast }}*/
+                /*{{ chart.dataset.US_FEC_interleaved }}*/
+                /*{{ chart.dataset.DS_FEC_interleaved }}*/
+                /*{{ chart.dataset.US_CRC_interleaved }}*/
+                /*{{ chart.dataset.DS_CRC_interleaved }}*/
+                /*{{ chart.dataset.US_HEC_interleaved }}*/
+                /*{{ chart.dataset.DS_HEC_interleaved }}*/
+                /*{{ chart.dataset.US_line_capacity }}*/
+                /*{{ chart.dataset.DS_line_capacity }}*/
+                /*{{ chart.dataset.US_noise_margin_dB }}*/
+                /*{{ chart.dataset.DS_noise_margin_dB }}*/
+                /*{{ chart.dataset.US_output_power_dBm }}*/
+                /*{{ chart.dataset.DS_output_power_dBm }}*/
+                /*{{ chart.dataset.US_attenuation_dB }}*/
+                /*{{ chart.dataset.DS_attenuation_dB }}*/
+                /*{{ chart.dataset.US_errored_seconds_ES }}*/
+                /*{{ chart.dataset.DS_errored_seconds_ES }}*/
+                /*{{ chart.dataset.US_severly_errored_seconds_SES }}*/
+                /*{{ chart.dataset.DS_severly_errored_seconds_SES }}*/
+                /*{{ chart.dataset.US_unavailable_seconds_UAS }}*/
+                /*{{ chart.dataset.pos_DS_unavailable_seconds_UAS }}*/
+                /*{{ chart.dataset.pos_TX_ethernet_packets }}*/
+                /*{{ chart.dataset.pos_RX_ethernet_packets }}*/
+
+
+            ]
+
+        };
+
+        var myChart = new Chart(ctx, {
+            type: 'line',
+            data: data,
+        });
+    </script>
+
+
+</body>
+
+</html>

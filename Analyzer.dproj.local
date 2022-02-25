@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>1899.12.30 00:00:00.000.222,=I:\Home\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.655,=I:\Home\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.388,=I:\Home\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.304,=I:\Home\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.350,I:\Home\Desktop\Keenetic DSL-Statistics Parser v1\Unit1.fmx=I:\Home\Documents\Embarcadero\Studio\Projects\Unit1.fmx</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.350,I:\Home\Desktop\Keenetic DSL-Statistics Parser v1\Unit1.pas=I:\Home\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.955,=I:\Home\Desktop\Keenetic DSL-Statistics Parser v1\favicon.ico</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.074,=I:\Home\Desktop\Keenetic DSL-Statistics Parser v1\index.html</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.799,=I:\Home\Desktop\Keenetic DSL-Statistics Parser v1\chart.js</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.968,=I:\Home\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.553,=I:\Home\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.136,I:\Home\Desktop\Keenetic DSL-Statistics Analyzer\Analyzer.dproj=I:\Home\Desktop\Keenetic DSL-Statistics Analyzer\Project1.dproj</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.483,I:\Home\Desktop\Keenetic DSL-Statistics Parser v1\Project1.dproj=I:\Home\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.290,=I:\Home\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.129,=I:\Home\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.959,=I:\Home\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.852,=I:\Home\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.177,=I:\Home\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+  </Transactions>
+	<ActiveMobileDevice>
+		<NoProfile Android=""/>
+	</ActiveMobileDevice>
+</BorlandProject>
