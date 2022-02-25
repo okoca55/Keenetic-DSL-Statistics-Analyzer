@@ -15,3 +15,6 @@ modem panelinden yüklediğiniz ndm_dsl-statistics.csv nızı uygulamanın klas�
 kopyası ile değiştirerek programı çalıştırın.
  
 ![image](https://user-images.githubusercontent.com/65568623/155796538-94bacc66-c0a6-4f4b-9bed-635880cb07f6.png)
+
+https://user-images.githubusercontent.com/65568623/155799195-1848830b-5254-410b-bead-0e5a100305f1.mp4
+
